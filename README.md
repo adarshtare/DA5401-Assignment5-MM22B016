@@ -10,77 +10,82 @@ This project explores the Yeast gene expression dataset using dimensionality red
 
 * Identify top single-label and multi-label categories 🏷️
 
-Scale features for distance-based methods 📏
+* Scale features for distance-based methods 📏
 
-Visualize using t-SNE and Isomap 📊
+* Visualize using t-SNE and Isomap 📊
 
-Detect outliers and noisy labels ⚠️
+* Detect outliers and noisy labels ⚠️
 
-Dataset
+## Dataset
 
-Files: yeast.arff (data), yeast.xml (labels)
+* Files: yeast.arff (data), yeast.xml (labels)
 
-Features: Numerical gene expression values
+* Features: Numerical gene expression values
 
-Labels: Multi-label functional categories
+* Labels: Multi-label functional categories
 
-Preprocessing
+## Preprocessing
 
-Decode bytes → strings 📝
+* Decode bytes → strings 📝
 
-Separate features (X_df) and labels (Y_df)
+* Separate features (X_df) and labels (Y_df)
 
-Assign label names from XML
+* Assign label names from XML
 
-Scale features with StandardScaler
+* Scale features with StandardScaler
 
-Dimensionality Reduction
-t-SNE 🎯
+## Dimensionality Reduction
+### t-SNE 🎯
 
-Focuses on local structure
+* Focuses on local structure
 
-Produces tight clusters
+* Produces tight clusters
 
-Perplexity: 30 for best balance
+* Perplexity: 30 for best balance
 
-Isomap 🌐
+### Isomap 🌐
 
-#Focuses on global structure
+* Focuses on global structure
 
-Reveals continuous curved manifold
+* Reveals continuous curved manifold
 
-n_neighbors: 10
+* n_neighbors: 10
 
-Color scheme:
+### Color scheme:
 
-🔴 Dark red → TopSingle_1
+* 🔴 Dark red → TopSingle_1
 
-🟢 Dark green → TopSingle_2
+* 🟢 Dark green → TopSingle_2
 
-⚪ Gray → Most frequent multi-label
+* ⚪ Gray → Most frequent multi-label
 
-💛 Light yellow → Other
+* 💛 Light yellow → Other
 
-Outliers & Noisy Labels
+## Outliers & Noisy Labels
 
-Outliers detected using Z-score
+* Outliers detected using Z-score
 
-Noisy labels detected via nearest neighbors
+* Noisy labels detected via nearest neighbors
 
-Highlighted with distinct colors for clarity 🔎
+* Highlighted with distinct colors for clarity 🔎
 
-Mixed-Label Regions
+## Mixed-Label Regions
 
-Points with overlapping classes are hard to classify
+* Points with overlapping classes are hard to classify
 
-Simple linear models fail here ❌
+* Simple linear models fail here ❌
 
-Non-linear models are recommended ✅
+* Non-linear models are recommended ✅
 
-Comparison Plots
+## Comparison Plots
 
-t-SNE: Shows local clusters
+* t-SNE: Shows local clusters
 
-Isomap: Shows global manifold
+* Isomap: Shows global manifold
 
-Side-by-side plots for comparison 🖼️
+* Side-by-side plots for comparison 🖼️
+
+by-
+
+Adarsh Mahaveer Tare
+MM22B016
