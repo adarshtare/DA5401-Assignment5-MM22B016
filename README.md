@@ -6,9 +6,10 @@ This project explores the Yeast gene expression dataset using dimensionality red
 
 ## 📂 Folder Structure  
 
-├── DA5401_A5_MM22B016.ipynb           # Main Jupyter Notebook  
+├── DA5401_MM22B016_A5.ipynb           # Main Jupyter Notebook  
 ├── README.md                          # Documentation file  
-└── creditcard.csv                     # Dataset
+└── yeast.xml                          # Dataset
+└── yeast.arff
 
 
 ## Goals:
