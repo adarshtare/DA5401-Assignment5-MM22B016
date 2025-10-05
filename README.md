@@ -1,13 +1,14 @@
-#🧬 Yeast Gene Expression Visualization
-##Overview
+# 🧬 Yeast Gene Expression Visualization
+
+## Overview
 
 This project explores the Yeast gene expression dataset using dimensionality reduction techniques to visualize multi-label data.
 
-Goals:
+## Goals:
 
-Load and preprocess the data ✅
+* Load and preprocess the data ✅
 
-Identify top single-label and multi-label categories 🏷️
+* Identify top single-label and multi-label categories 🏷️
 
 Scale features for distance-based methods 📏
 
