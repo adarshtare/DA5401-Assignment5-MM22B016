@@ -4,6 +4,13 @@
 
 This project explores the Yeast gene expression dataset using dimensionality reduction techniques to visualize multi-label data.
 
+## 📂 Folder Structure  
+
+├── DA5401_A5_MM22B016.ipynb           # Main Jupyter Notebook  
+├── README.md                          # Documentation file  
+└── creditcard.csv                     # Dataset
+
+
 ## Goals:
 
 * Load and preprocess the data ✅
