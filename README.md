@@ -1,5 +1,5 @@
-🧬 Yeast Gene Expression Visualization
-Overview
+#🧬 Yeast Gene Expression Visualization
+##Overview
 
 This project explores the Yeast gene expression dataset using dimensionality reduction techniques to visualize multi-label data.
 
